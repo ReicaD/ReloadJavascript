@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chic Product Showcase</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #ffb6c1, #cdf5cd);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        .hero-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #fefefe;
+        }
+        .hero-section img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .hero-section h2 {
+            margin-top: 20px;
+            color: #ec298b;
+        }
+        .hero-section p {
+            margin-top: 10px;
+            max-width: 600px;
+            font-size: 1rem;
+        }
+        .cta-button {
+            margin-top: 20px;
+            background-color: #176903;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #76c76b;
+        }
+        footer {
+            margin-top: 50px;
+            background-color: #ffb6c1;
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Chic Boutique</h1>
+        <p>Your one-stop destination for luxury and elegance.</p>
+    </header>
+    <section class="hero-section">
+        <img src="https://via.placeholder.com/800x400" alt="Featured Product">
+        <h2>Introducing the Luxe Product</h2>
+        <p>
+            Experience unmatched quality and timeless elegance with our latest product. 
+            Designed to elevate your lifestyle and add a touch of sophistication to your everyday moments.
+        </p>
+        <button class="cta-button">Shop Now</button>
+    </section>
+    <footer>
+        &copy; 2025 Chic Boutique. All rights reserved.
+    </footer>
+    <script>
+        <h1>hello earth </h1>
+        function showPopup() {
+            const popup = document.getElementById('popup');
+            popup.style.display = 'block';
+
+            // Automatically hide the pop-up after 3 seconds
+            setTimeout(() => {
+                popup.style.display = 'none';
+            }, 3000);
+        }
+    </script>
+</body>
+</html>
