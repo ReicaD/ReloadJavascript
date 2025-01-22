@@ -19,12 +19,13 @@
 // // console.log(Boolean(isCool));
 
 // Template literal (concatenation)
+const firstName = "Eddy";
+const lastName = "Menzi";
+const age = 23;
 
-const firstName = "Eddy"
-const lastName = "Menzi"
-const age = 23
+const introduction = `Hello, My Name is ${firstName} ${lastName}, and i am ${age} young.`;
+console.log(introduction);
 
-const introduction = `Hello, My Name is ${firstName} ${lastName}, and i am ${age} young.`
-
-console.log(introduction)
-
+const ef = "hello Me"
+//methods
+console.log((ef.substring(0, 6)) )
